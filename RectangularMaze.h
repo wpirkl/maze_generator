@@ -21,7 +21,7 @@ struct RectangularMaze : public Maze
 			}
 		}
 
-		// add walls
+		// add neighbors
 		for (auto& cell : cells) {
 			size_t x = std::get<0>(cell.position);
 			size_t y = std::get<1>(cell.position);

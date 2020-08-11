@@ -4,11 +4,13 @@
 #include <iostream>
 
 #include "RectangularMaze.h"
+#include "CircularMaze.h"
 #include "DepthFirst.h"
 
 int main()
 {
-	RectangularMaze maze;
+	// RectangularMaze maze;
+	CircularMaze maze;
 
 	DepthFirst df(&maze);
 
